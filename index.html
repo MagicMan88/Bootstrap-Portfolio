@@ -1,75 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"crossorigin="anonymous">
-  <title>Document</title>
+
+  <title>Bootstrap Basic Portfolio</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
 </head>
 
 <body>
-    <!-- NavBar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
-       <div class="container">
-        <a class="navbar-brand" href="index.html" id="logo">Stephen Green</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-              </ul>
-            </div>
-          </div> 
-        </nav>
-        <!-- Main Content -->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h1>About Me</h1>
-                        </div>
-                    </div>
-        <!-- Second section -->
-        <div class="row">
-          <div class="col-sm-3"><img src="images/stephen_green.jpg" class="img-fluid" alt="Responsive image"></div>
-            <div class="col-sm-9">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque porro facere earum officiis sapiente illo non aspernatur, facilis culpa mollitia, placeat, molestias quo adipisci voluptatum odit at vero fugiat dignissimos?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ipsam nobis velit eius autem asperiores suscipit accusantium reprehenderit provident fuga facilis adipisci vitae facere quaerat, ut ex cumque nihil quasi!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat laboriosam ullam necessitatibus magni iste natus, dolore sit error, ipsa rerum voluptatibus repellendus minima explicabo nihil blanditiis esse repellat suscipit maxime.
-              </p>
-            </div>
-          </div>
-        </div>
-          <div class="col-sm-3">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Connect with Me</h4>
-                  <img src="images/linkedin.png" class="img-responsive" alt="Responsive image">
-                  <img src="images/github.png" class="img-responsive" alt="Responsive image">
-                  <img src="images/stackoverflow-48.png" class="img-responsive" alt="Responsive image">
-                </div> 
-              </div>
-            </div>
-          </div>
-        </div>
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        &copy; Copyright 2019 Stephen Green
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Stephen Green</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-    </footer>
-  </body>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
+
+  <!-- Start of container -->
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="assets/imgs/natebeach.jpeg" alt="" id="about-image" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+          <br />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- End of container -->
+
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
